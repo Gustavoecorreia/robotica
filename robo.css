@@ -329,7 +329,7 @@ background-color: #25d366;
     flex-direction: column;
     gap: 0.75rem;
     list-style: none;
-    margin-left: -70px;
+    margin-left: 10px;
 }
 .footer-list .footer-link{
   color: var(--color-neutral-30);
