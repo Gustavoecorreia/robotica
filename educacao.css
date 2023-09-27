@@ -14,6 +14,10 @@ body{
     background-color: #f1f6fc31 ;
 
 }
+body::-webkit-scrollbar{
+  display: none;
+
+}
 .imgr{
   height: 50px;
   width: 56px;
