@@ -353,14 +353,9 @@ background-color: #25d366;
 #input_group{
   display: flex;
   align-items: center;
-  background-color: var(--color-neutral-0);
   border-radius: 4px;
 }
-#input_group input{
-  all: unset;
-  padding: 0.75rem;
-  width: 100%;
-}
+
 #input_group button{
   background-color: #7f37c9;
   border: none;
