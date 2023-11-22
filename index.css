@@ -36,7 +36,7 @@ justify-content: center;
 .p{
     color: #0000009c;
     display: flex;
-    justify-content: center;
+    justify-content: justify;
 }
 .container1{
     max-width: 1400px;
