@@ -36,7 +36,7 @@ justify-content: center;
 .p{
     color: #0000009c;
     display: flex;
-    justify-content: justify;
+    justify-content: center;
 }
 .container1{
     max-width: 1400px;
@@ -113,7 +113,7 @@ nav ul a:hover::after{
 }
 .banner .banner-text p{
     font-size: 20px;
-    color: #ffffffb7;
+    color: #ffffff;
     font-weight: lighter;
     margin: 18px 0;
 }
@@ -334,7 +334,7 @@ background-color: #25d366;
   margin-left: 15px;
 }
 .footer-list .footer-link{
-  color: var(--color-neutral-30);
+  color: var(--color-neutral-40);
   transition: all 0.4s;
   cursor: default;
 }
@@ -348,7 +348,7 @@ background-color: #25d366;
   gap: 1.5rem;
 }
 #footer_subscribe p{
-  color: var(--color-neutral-30);
+  color: var(--color-neutral-40);
 }
 #input_group{
   display: flex;
@@ -358,7 +358,7 @@ background-color: #25d366;
 }
 
 #input_group button{
-  background-color: #7f37c9;
+  background-color: #ffffff;
   border: none;
   color: var(--color-neutral-40);
   padding: 0px 1.25rem;
