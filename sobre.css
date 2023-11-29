@@ -150,7 +150,7 @@ nav ul a:hover::after{
   flex-wrap: nowrap;
   padding: 60px 0;
   gap: 60px;
- 
+  margin: 5%;
 }
 .container .box
 {
@@ -392,6 +392,7 @@ color: #2e2e2e;
        padding: 3rem 2rem;
     }
   }
+  
   
 
 
