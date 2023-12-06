@@ -397,182 +397,46 @@ color: #2e2e2e;
 
 
 
-@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
-
-.container{
-    position: relative;
-    display: flex;
-    padding: 80px 40px;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 80px;
-   
-}
-.card{
-    position: relative;
-    width: 350px;
-    height: 180px;
-    background: #333;
-    transition: 0.5s;
-}
-.card:hover{
-    height: 450px;
-}
-.card .lines{
-position: absolute;
-inset: 0;
-background: #000;
-overflow: hidden; 
-}
-.card .lines::before{
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 600px;
-    height: 120px ;
-    background: linear-gradient(transparent,#45f3ff,#45f3ff,#45f3ff,transparent );
-    animation: animate 4s linear infinite;
-    animation-play-state: paused;
- 
-}
-.card:hover .lines::before{
-animation-play-state: running;
-}
-@keyframes animate {
-    0%{
-      transform: translate(-50%, -50%) rotate(0deg);  
+  .card1{
+    
+    margin-top: 73px;
+    margin-left:-1px;
+    height: 278px;
+    width: 241px;
+    background-image: url(./img/Corinthians.webp);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: -10px;
+    animation: float 3s ease-in-out infinite;
     }
-    100%{
-        transform: translate(-50%, -50%) rotate(360deg);  
-      }
-}
-.card .lines::after{
-   content: '';
-   position: absolute; 
-   inset: 3px;
-   background: #292929;
-}
-.card .imgBx{
-    position: absolute;
-    top: -170px;
-    left: 50%;
-    width: 150px;
-    height: 150px;
-    transform: translateX(-50%);
-    background: #000;
-    transition: 0.5s;
-    z-index: 10;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-.card:hover .imgBx{
-    top: -80px;
-   
-    width: 150px;
-    height: 150px;
-}
-.card .imgBx::before{
-    content: '';
-    position: static;
-    top: 50%;
-    left: 50%;
-    width:150px ;
-    height: 150px;
-    transform: translate(-50%, -50%);
-    background: linear-gradient(transparent,#ff3c7b,#ff3c7b,#ff3c7b,transparent );
-    animation: animate2 6s linear infinite;
-    animation-play-state: paused;
-}
-.card:hover .imgBx::before{
-    animation-play-state: running;
-}
-@keyframes animate2{
-    0%{
-        transform: translate(-50%, -50%) rotate(360deg);  
-      }
-      100%{
-          transform: translate(-50%, -50%) rotate(0deg);  
-        }
-}
-.card .imgBx::after{
-    content: '';
-    position: absolute;
-    inset: 4px;
-    background: #292929;
-}
-.card .imgBx img{
-    position: absolute;
-    width: 100px;
-    z-index: 1;
-    filter: invert(9);
-    opacity: 0.5;
-    transition: 0.5s;
-}
-.card:hover .imgBx img{
-    opacity:1 ;
-}
-.card .content{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    overflow: hidden;
-}
-.card .content .details{
-    padding: 30px 20px;
-    text-align: center;
-    width: 100%;
-    transition: 0.5s;
-    transform: translateY(145px);
-}
-.card:hover .content .details{
-    transform: translateY(0px);   
-}
-.card .content .details h2{
-    font-size: 1.5em;
-    font-weight: 500;
-    color: #45f3ff;
-    line-height: 1.2em;
-}
-
-.card .content .details p{
-    color: #fff;
-    opacity: 0;
-    transition: 0.5s;   
-}
-.card:hover .content .details p{
-    opacity: 1;
     
-}
-.card .content .details a{
-    display: inline-block;
-    padding: 8px 15px;
-    background: #45f3ff;
-    color: #292929;
-    margin-top: 30px;  
-    text-decoration: none;
-    opacity: 0;
-    transition: 0.5s;
-
-}
-.card:hover .content .details p,
-.card:hover .content .details a{
-    opacity: 1;
-}
-
-.imgBx{
+    .card-profile1 > div {
+        float:  left;
+        
+    }
     
-    background-size: cover;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    margin-top: 90px;
-    margin-left: 5px;
-}
+    .profile-photo1 {
+      background-image: url(img/316131615_710214553421906_2932969261747309032_n.webp);
+      background-size: cover;
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      margin-top: 55px;
+      margin-left: 70px;
+     
+  }
+    
+    .profile-detail1{
+        height: 100px;
+        margin-left: 27%;
+        margin-top: -17px;
+        
+    }
+    
+    .card{
+      background-color: #fafafa;
+      border-radius: 5px;
+      float: left;
+      box-shadow: 0 10px 20px 0 #acacac;
+  }
